@@ -1,0 +1,31 @@
+/*头部*/
+.navbar{
+    background: #000!important;
+}
+.no-skin .navbar .navbar-toggle{
+    background-color: #696969!important;
+}
+.ace-nav>li.light-blue>a{
+    background-color: 	#696969!important;
+}
+.ace-nav>li.light-blue>a:hover, .ace-nav>li.light-blue>a:focus, .ace-nav>li.open.light-blue>a {
+    background-color: 	#808080!important;
+}
+/*左侧*/
+.no-skin .nav-list>li.active>a{
+    color: #000!important;
+}
+.no-skin .nav-list li.active>a:after{
+    border-right-color: #000!important;
+}
+.no-skin .nav-list>li.active:after{
+    border-color: #000!important;
+}
+.no-skin .nav-list>li:before{
+    background-color: #000!important;
+}
+.no-skin .nav-list>li.open>a,
+.no-skin .nav-list>li:hover>a,
+.no-skin .nav-list>li .submenu>li:hover>a{
+    color: #ff892a !important;
+}

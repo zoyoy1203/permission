@@ -1,0 +1,25 @@
+
+.table-header{
+    background-color: #333!important;
+}
+.page-header h1,
+a{
+    color:  #ff892a !important;
+}
+.pagination>li>a, .pager>li>a{
+    color: #000!important;
+}
+.pagination>li.active>a,
+.pagination>li.active>a:hover{
+    background-color: #333!important;
+    border-color: #333!important;
+    color: #fff!important;
+}
+.btn-info,
+.btn-info:focus{
+    background-color: #333 !important;
+    border-color: #333!important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+    border-top: 2px solid #333!important;
+}
