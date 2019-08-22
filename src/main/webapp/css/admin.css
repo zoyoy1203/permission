@@ -1,6 +1,7 @@
 /*头部*/
 .navbar{
     background: #000!important;
+    margin-bottom: 0px !important;
 }
 .no-skin .navbar .navbar-toggle{
     background-color: #696969!important;

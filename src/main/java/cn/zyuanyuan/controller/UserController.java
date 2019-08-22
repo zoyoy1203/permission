@@ -6,6 +6,7 @@ import cn.zyuanyuan.util.MD5Util;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 import javax.servlet.ServletException;
@@ -18,6 +19,13 @@ public class UserController {
 
     @Resource
     private SysUserService sysUserService;
+
+
+    @RequestMapping("/index.page")
+    public ModelAndView page() {
+        return new ModelAndView("index");
+    }
+
 
     @RequestMapping("/logout.page")
     public void logout(HttpServletRequest request, HttpServletResponse response)throws IOException, ServletException {

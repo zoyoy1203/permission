@@ -16,7 +16,6 @@ body {
 .form-signin .checkbox {
     font-weight: normal;
 }
-
 .form-signin .form-control {
     position: relative;
     height: auto;
@@ -38,4 +37,40 @@ body {
     margin-bottom: 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+.content{
+    margin:90px auto auto auto!important;
+
+}
+form h1{
+    text-align: center;
+    margin-bottm: 30px;
+}
+form button{
+    background-color:#000!important;
+    color: #fff!important;
+}
+.img{
+    width: 100%;
+}
+.img .img_left{
+    float: left;
+    width: 500px;
+    height: auto;
+}
+.img .img_right{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+.img .img_left img,
+.img .img_right img{
+    width: 100%;
+    height: auto;
+}
+form input{
+    margin-top: 15px!important;
+}
+.btn-block{
+    margin-top: 20px!important;
 }
